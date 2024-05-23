@@ -1,0 +1,3 @@
+--in progress
+--chatbot logic is under work
+--satisafactory level UI work and organization

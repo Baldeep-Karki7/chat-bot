@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #F8F8F8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+section.chat_bot {
+    width: 450px;
+    max-width: 95%;
+    background: #fff;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.header {
+    padding: 20px;
+    background: #f0f0f0;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    height: 100px;
+}
+.header h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+.header img{
+    height: 100%;
+}
+.message_area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #f0f0f0;
+}
+
+.message {
+    padding: 20px; 
+    margin-bottom: 20px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming {
+    border-radius: 7px 7px 7px 0px;
+    background: #8F8BE8;
+    color: #fff;  
+}
+.outgoing {
+    border-radius: 7px 7px 0px 7px;
+    background: #e9eafd;
+    color: #787986;
+    margin-left: auto;
+}
+.message h4 {
+    position: absolute;
+    top: -20px;
+    color: #333;
+    font-size: 14px;
+}
+.incoming h4{
+    left: 0px;
+    display: block;
+}
+.outgoing h4{
+    right: 0px;
+}
+.service-btn{
+    display: inline;
+    background-color: white;
+    border: 1px solid rgb(100, 188, 246);
+    color: rgb(100, 188, 246);
+}
+
+
+.top-div{
+    display: flex;
+    flex-direction: row;
+}
+.left-div{
+    flex: 0.13; 
+    display: flex;
+    
+}
+.left-div-logo{
+    object-fit: contain;
+    width: 100%;
+    align-self: flex-start;
+}
+.right-div{
+    flex: 0.9;
+    row-gap: 0px;
+    margin-left: 5px;
+}
+.bottom-div{
+    font-size: 10px;
+    padding-left: 0px;
+}
+.append-message-main-div{
+    display: inline;
+}
+
+.main-div-for-user{
+    display: flex;
+    flex-direction: column;
+}
+.bottom-div-user{
+    font-size: 10px;
+    padding-left: 0px;
+    text-align: right;
+}
+
